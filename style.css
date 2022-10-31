@@ -4,26 +4,26 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.header { /*.aaa*/
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.header__img { /*.aaa img*/
+.header__img {
   width: 100%;
 }
-.header__link {/*.aaa more_inf*/
+.header__link {
   font-family: fantasy, cursive;
 }
 @media (max-width: 768px) {
 
-  .header { /*.aaa*/
+  .header {
     text-align: center;
   }
 
 }
-.wrapper {/*centered-main-page-element*/
+.wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -46,9 +46,6 @@ ul {
 li {
   list-style: none;
 }
-/* input,button{
-  outline: none;
-} */
 .task__input,
 .add__input {
   outline: none;
@@ -106,16 +103,14 @@ li {
   width: 318px;
 }
 /* Task list */
-li {
+.task {
+  vertical-align: middle;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.task {
-  vertical-align: middle;
 }
 .task__check {
   margin: 0 10px;
@@ -142,17 +137,14 @@ li {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
 .task__input {
   display: none;
 }
-
 .task__input_edit-mode {
   display: inline-block;
   width: 224px;
 }
-
 .task__text_edit-mode {
   display: none;
 }
