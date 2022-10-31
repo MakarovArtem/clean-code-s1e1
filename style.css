@@ -151,7 +151,7 @@ li {
 }
 
 /* Completed */
-.task__text_completed {
+#completed-tasks {
   text-decoration: line-through;
   color: #888;
 }
